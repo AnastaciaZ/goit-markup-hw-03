@@ -11,96 +11,103 @@
 <body>
   <header class="header-container">
     <nav class="container">
-      <a href="/" class="logo">
-        <span class="logo-web">Web</span>
-        <span class="logo-studio">Studio</span>
-      </a>
-      <ul class="site-nav">
-        <li><a href="" class="link current">Студия</a></li>
-        <li><a href="./portfolio.html"
-           class="link">Порфолио</a></li>
-        <li><a href="" class="link">Контакты</a></li>
-      </ul>
-      <ul class="site-contacts">
-        <li>
-          <img src="image/mail.svg" alt="" />
-          <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-        </li>
-        <li>
-          <img src="image/tel.svg" alt="" />
-          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+     <div class="navigator">
+       <a href="/" class="logo">
+         <span class="logo-web">Web</span>
+         <span class="logo-studio">Studio</span>
+       </a>
+         <ul class="site-nav">
+           <li class="item">
+             <a href="" class="link current">Студия</a>
+           </li>
+           <li class="item">
+             <a href="./portfolio.html" class="link">Порфолио</a>
+           </li>
+           <li class="item">
+             <a href="" class="link">Контакты</a>
+           </li>
+         </ul>
+         <ul class="site-contacts">
+           <li class="item">
+             <img src="image/mail.svg" alt="" />
+             <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+           </li>
+           <li class="item">
+             <img src="image/tel.svg" alt="" />
+             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+           </li>
+         </ul>
+       </div>
+     </nav>
+   </header>
   <main class="container">
     <div class="section">
-      <ul>
-      <li><button type="button" class="button-hero">Все</button></li>
-      <li><button type="button" class="button-hero">Веб-сайты</button></li>
-      <li><button type="button" class="button-hero">Приложения</button></li>
-      <li><button type="button" class="button-hero">Дизайн</button></li>
-      <li><button type="button" class="button-hero">Маркетинг</button></li>
-    </ul>
-    <section>
-      <ul>
-        <li>
+        <ul class="portfolio-button">
+      <li><button type="button" class="button-portfolio">Все</button></li>
+      <li><button type="button" class="button-portfolio">Веб-сайты</button></li>
+      <li><button type="button" class="button-portfolio">Приложения</button></li>
+      <li><button type="button" class="button-portfolio">Дизайн</button></li>
+      <li><button type="button" class="button-portfolio">Маркетинг</button></li>
+        </ul>
+      <section>
+       <ul class="portfolio-container">
+        <li class="item">
           <a href="" class="portfolio">
           <p>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
           <h3 class="portfolio-title">Технокряк</h3>
         </a>
           <span class="portfolio-nav">Веб-сайт</span>
         </li>
-        <li>
+        <li class="item">
           <a href="" class="portfolio">
           <img src="image/project2.jpg" alt="" />
           <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h3>
         </a>
           <span class="portfolio-nav">Дизайн</span>
         </li>
-        <li>
+        <li class="item">
           <a href="" class="portfolio">
           <img src="image/project3.jpg" alt="" />
           <h3 class="portfolio-title">Ресторан Seafood</h3>
         </a>
           <span class="portfolio-nav">Приложение</span>
         </li>
-        <li>
+        <li class="item">
           <a href="" class="portfolio">
           <img src="image/project4.jpg" alt="" />
           <h3 class="portfolio-title">Проект Prime</h3>
         </a>
           <span class="portfolio-nav">Маркетинг</span>
         </li>
-        <li>
+        <li class="item">
           <a href="" class="portfolio">
           <img src="image/project5.jpg" alt="" />
           <h3 class="portfolio-title">Проект Boxes</h3>
         </a>
           <span class="portfolio-nav">Приложение</span>
         </li>
-        <li>
+        <li class="item">
           <a href="" class="portfolio">
           <img src="image/project6.jpg" alt="" />
           <h3 class="portfolio-title">Inspiration has no Borders</h3>
         </a>
           <span class="portfolio-nav">Веб-сайт</span>
         </li>
-        <li>
+        <li class="item">
           <a href="" class="portfolio">
           <img src="image/project7.jpg" alt="" />
           <h3 class="portfolio-title">Издание Limited Edition</h3>
         </a>
           <span class="portfolio-nav">Дизайн</span>
         </li>
-        <li>
+        <li class="item">
           <a href="" class="portfolio">
           <img src="image/project8.jpg" alt="" />
           <h3 class="portfolio-title">Проект LAB</h3>
         </a>
           <span class="portfolio-nav">Маркетинг</span>
         </li>
-        <li>
+        <li class="item">
           <a href="" class="portfolio">
           <img src="image/project9.jpg" alt="" />
           <h3 class="portfolio-title">Growing Business</h3>
@@ -108,51 +115,57 @@
           <span class="portfolio-nav">Приложение</span>
         </li>
       </ul>
+    
     </section>
   </div>
   </main>
-  <footer class="footer">
-    <div>
-      <a href="/" class="logo-foot">
-        <span class="logo-web-foot">Web</span>
-        <span class="logo-studio-foot">Studio</span>
-      </a>
-      <address>
-        <ul>
-          <li>
-            <span class="footer-address">г. Киев, пр-т Леси Украинки, 26</span>
-          </li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a>
-          </li>
-          <li>
-              <a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </address>
-      </div>
-      <div>
-        <span class="footer-title">присоединяйтесь</span>
-        <div>
-          <a href=""><img src="image/inst.svg" alt="" /></a>
-          <a href=""><img src="image/twit.svg" alt="" /></a>
-          <a href=""><img src="image/face.svg" alt="" /></a>
-          <a href=""><img src="image/link.svg" alt="" /></a>
-        </div>
-      </div>
-      <div>
-        <span class="footer-title">Подпишитесь на рассылку</span>
-        <form action="/">
-          <input type="text" name="/" value="E-mail" />
-          <button class="button">
-            Подписаться
-            <img src="image/telegram.svg" alt="" />
-          </button>
-        </form>
-      </div>
-      <div>
-        <a href="" class="copy">2020 | Developed by GoIT Students></a>
-      </div>
-    </footer>
+  <div class="footer">
+    <footer class="container"> 
+       <div class="logo-contacts">
+          
+             <a href="/" class="logo-foot">
+             <span class="logo-web-foot">Web</span>
+             <span class="logo-studio-foot">Studio</span>
+             </a>
+            <address>
+             <ul>
+               <li>
+                 <span class="footer-address">г. Киев, пр-т Леси Украинки, 26</span>
+               </li>
+               <li>
+                 <a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a>
+               </li>
+               <li>
+                 <a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a>
+               </li>
+             </ul>
+           </address>
+           
+         
+           <div class="icon-footer">
+             <span class="footer-title">присоединяйтесь</span>
+                <div>
+                  <a href=""><img src="image/inst.svg" alt="" /></a>
+                  <a href=""><img src="image/twit.svg" alt="" /></a>
+                  <a href=""><img src="image/face.svg" alt="" /></a>
+                  <a href=""><img src="image/link.svg" alt="" /></a>
+                 </div>
+           </div>
+           <div>
+             <span class="footer-title">Подпишитесь на рассылку</span>
+             <form action="/">
+              <input type="text" name="/" value="E-mail" />
+              <button class="button-footer">
+               Подписаться
+               <img src="image/telegram.svg" alt="" />
+               </button>
+             </form>
+           </div>
+       </div>
+         <div>
+           <a href="" class="copy">2020 | Developed by GoIT Students></a>
+         </div>
+     </footer>
+   </div>
   </body>
 </html>
