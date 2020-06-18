@@ -317,12 +317,14 @@ margin-bottom: 8px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  margin-bottom: 50px;
   }
 .button-portfolio {
- margin-left: 8px;
- margin-bottom: 50px;
-  }
  
+  }
+.portfolio-button .item:not(:first-child){
+  margin-left: 8px;
+}
 .portfolio-container {
   display: flex;
   flex-wrap: wrap;
