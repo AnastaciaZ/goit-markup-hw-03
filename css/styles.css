@@ -244,7 +244,11 @@ ul {
   flex-direction: column;
   justify-content: space-around;
   
+<<<<<<< HEAD
   margin-right: 69px;
+=======
+  margin-right: 69p;
+>>>>>>> 1f3ef60a1ed60345104567e6825d9d64a7ad1481
 }
 .logo-foot {
   font-weight: 700;
