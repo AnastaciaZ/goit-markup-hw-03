@@ -42,7 +42,8 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin-left:  auto;
+  margin-right: auto;
  }
 .navigator {
     display: flex;
@@ -418,9 +419,9 @@ margin-bottom: 8px;
   line-height: 1.8;
   margin: 0;
 }
-/*.portfolio {
+.portfolio {
   text-decoration: none;
-}*/
+}
 
 
 /*остновной цвет текста
