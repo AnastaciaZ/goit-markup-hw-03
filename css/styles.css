@@ -94,6 +94,8 @@ ul {
 /*секция hero*/
 .hero {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero .hero-title {
   margin-top: 0px;
@@ -109,6 +111,10 @@ ul {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.advantages-section {
+  padding-top: 94px;
+  padding-bottom: 0;
 }
 .section-title {
   margin-top: 0;
@@ -199,6 +205,9 @@ img {
 .section-comand .list .item {
   width: calc((100% - 30px*3)/4);
   padding-bottom: 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
 }
 .icon {
   margin-top: 16px;
@@ -216,8 +225,7 @@ img {
   }
 /*кнопка*/
 .button-hero,
-.button-footer,
-.button-portfolio {
+.button-footer {
   border-radius: 4px ;
   padding: 10px 32px;
   width: 200px;
@@ -335,15 +343,29 @@ margin-bottom: 8px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-bottom: ;
   margin-bottom: 50px;
   }
 .button-portfolio  {
- padding-top: 6px;
- padding-bottom: 6px;
- padding-left: 22px;
- padding-right: 22px;
+  border-radius: 4px;
+  padding: 6px 22px;
+  width: auto;
+  height: 38px;
+  background-color: var(--secondary-background-color);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  align-items: center;
+  border: transparent;
   }
+  
+.button-portfolio:hover {
+    color: var(--secondary-background-color);
+    background-color: var(--accent-color);
+}
+  
 .portfolio-button .item:not(:first-child){
   margin-left: 8px;
 }
@@ -394,6 +416,7 @@ margin-bottom: 8px;
 .portfolio-list-text {
   font-size: 16px;
   line-height: 1.8;
+  margin: 0;
 }
 /*.portfolio {
   text-decoration: none;
